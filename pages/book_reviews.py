@@ -19,7 +19,7 @@ df_reviews_f = df_reviews[df_reviews["book name"] == book]
  
 book_title = df_book["book title"].iloc[0]
 book_genre = df_book["genre"].iloc[0]
-book_price = f"${df_book["book price"].iloc[0]}"
+book_price = f"${df_book['book price'].iloc[0]}"
 # esse metodo de cima é o utilizado para concatenar as strings
 # dai para funcionar, é necessario a utilização das aspas simples e das
 # aspas duplas, pois senão, ocorrerá erros
